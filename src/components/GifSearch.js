@@ -14,11 +14,11 @@ function GifSearch({ handleSearch }) {
       >
         <input
           type="text"
-          placeholder="Search Gif"
+          placeholder="Enter a Search Term"
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
         ></input>
-        <button type="submit">Search</button>
+        <button type="submit">Find Gifs</button>
       </form>
     </div>
   );
